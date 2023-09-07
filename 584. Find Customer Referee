@@ -1,0 +1,5 @@
+/* Find the names of the customer that are not referred by the customer 
+with id = 2. */
+
+SELECT NAME FROM CUSTOMER
+WHERE REFEREE_ID != 2 OR REFEREE_ID is null;
